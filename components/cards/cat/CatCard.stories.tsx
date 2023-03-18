@@ -16,5 +16,5 @@ export const Cat = Cards.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 
 Cat.args = {
-  ...mockCatCardProps.Cat,
+  ...mockCatCardProps.cat,
 } as ICatCard;
